@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    int sepatu,kaoskaki,tali;
+    pertama :
+    cout<<"Siapkan sepatu dengan Tali (1=Siap) : ";cin>>sepatu;
+    if(sepatu == 1){
+        cout<<"Sepatu siap dengan Tali"<<endl;
+        gotto kedua;
+    }
+    else{
+        cout<<"Siapkan Seaptu dengan Tali!!!"<<endl;
+        gotto pertama;
+    kedua :
+    cout<<"Siapkan Kaos Kaki (1=Siap) : ";cin>>kaoskaki;
+    if(kaoskaki == 1){
+        cout<<"Kaos Kaki Siap"<<endl;
+        cout<<"Pakai Kaos Kaki"<<endl;
+        cout<<"Pakai Sepatu"<<endl;
+        cout<<"Talikan Seaptu"<<endl;
+        gotto ketiga;
+    }
+    else{
+        cout<<"Siapkan Kaos Kaki!!!"<<endl;
+        gotto kedua;
+    }
+    ketiga :
+    cout<<"Tali Nyaman??? (1 = YA) : ";cin>>tali;
+    if(tali == 1){
+        cout<<"Sepatu Siap"<<endl;
+        cout<<"Sudah Memakai Kaos Kaki & Sepatu tertali dengan nyaman"<<endl;
+        gotto keempat;
+    }
+    else{
+        gotto ketiga;
+    }
+    keempat :
+    return 0;
+    }
